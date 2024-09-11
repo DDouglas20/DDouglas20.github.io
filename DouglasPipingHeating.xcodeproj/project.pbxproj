@@ -38,6 +38,9 @@
 		B79593372C91318200498C30 = {
 			isa = PBXGroup;
 			children = (
+				B79593522C91323400498C30 /* index.html */,
+				B79593542C91324C00498C30 /* style.css */,
+				B79593562C91333300498C30 /* script.js */,
 				B79593422C91318200498C30 /* DouglasPipingHeating */,
 				B79593412C91318200498C30 /* Products */,
 			);
@@ -54,9 +57,6 @@
 		B79593422C91318200498C30 /* DouglasPipingHeating */ = {
 			isa = PBXGroup;
 			children = (
-				B79593522C91323400498C30 /* index.html */,
-				B79593542C91324C00498C30 /* style.css */,
-				B79593562C91333300498C30 /* script.js */,
 				B79593472C91318300498C30 /* Assets.xcassets */,
 				B795934C2C91318300498C30 /* DouglasPipingHeating.entitlements */,
 				B79593492C91318300498C30 /* Preview Content */,
