@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B79593442C91318200498C30 /* DouglasPipingHeatingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79593432C91318200498C30 /* DouglasPipingHeatingApp.swift */; };
-		B79593462C91318200498C30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79593452C91318200498C30 /* ContentView.swift */; };
 		B79593482C91318300498C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79593472C91318300498C30 /* Assets.xcassets */; };
 		B795934B2C91318300498C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B795934A2C91318300498C30 /* Preview Assets.xcassets */; };
+		B79593532C91323400498C30 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B79593522C91323400498C30 /* index.html */; };
+		B79593552C91324C00498C30 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = B79593542C91324C00498C30 /* style.css */; };
+		B79593572C91333300498C30 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = B79593562C91333300498C30 /* script.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B79593402C91318200498C30 /* DouglasPipingHeating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouglasPipingHeating.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B79593432C91318200498C30 /* DouglasPipingHeatingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouglasPipingHeatingApp.swift; sourceTree = "<group>"; };
-		B79593452C91318200498C30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B79593472C91318300498C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B795934A2C91318300498C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B795934C2C91318300498C30 /* DouglasPipingHeating.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DouglasPipingHeating.entitlements; sourceTree = "<group>"; };
+		B79593522C91323400498C30 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B79593542C91324C00498C30 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		B79593562C91333300498C30 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		B79593422C91318200498C30 /* DouglasPipingHeating */ = {
 			isa = PBXGroup;
 			children = (
-				B79593432C91318200498C30 /* DouglasPipingHeatingApp.swift */,
-				B79593452C91318200498C30 /* ContentView.swift */,
+				B79593522C91323400498C30 /* index.html */,
+				B79593542C91324C00498C30 /* style.css */,
+				B79593562C91333300498C30 /* script.js */,
 				B79593472C91318300498C30 /* Assets.xcassets */,
 				B795934C2C91318300498C30 /* DouglasPipingHeating.entitlements */,
 				B79593492C91318300498C30 /* Preview Content */,
@@ -127,6 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79593572C91333300498C30 /* script.js in Resources */,
+				B79593532C91323400498C30 /* index.html in Resources */,
+				B79593552C91324C00498C30 /* style.css in Resources */,
 				B795934B2C91318300498C30 /* Preview Assets.xcassets in Resources */,
 				B79593482C91318300498C30 /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79593462C91318200498C30 /* ContentView.swift in Sources */,
-				B79593442C91318200498C30 /* DouglasPipingHeatingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
